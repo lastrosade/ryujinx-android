@@ -29,7 +29,7 @@ download_ryujinx() {
 }
 
 setup_ryujinx_menu() {
-    wget https://raw.githubusercontent.com/Ishan09811/RyujinxMobile/main/ryujinx_menu.zip -O /data/data/com.termux/files/home/ryujinx_menu.zip
+    wget https://raw.githubusercontent.com/lastrosade/ryujinx-android/main/ryujinx_menu.zip -O /data/data/com.termux/files/home/ryujinx_menu.zip
     unzip /data/data/com.termux/files/home/ryujinx_menu.zip -d /data/data/com.termux/files/home/ryujinx_menu
     echo "alias Ryujinx='/data/data/com.termux/files/home/ryujinx_menu/ryujinx.sh'" >> ~/.bashrc
     source ~/.bashrc
