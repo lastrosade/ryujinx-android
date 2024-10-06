@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-RYU_URL="https://github.com/Ryujinx/release-channel-master/releases/download/1.1.1376/ryujinx-1.1.1376-linux_arm64.tar.gz"
-RYU_ARCHIVE="ryujinx-1.1.1376-linux_arm64.tar.gz"
+RYU_URL="https://github.com/Julienraptor01/Ryujinx/releases/download/1.1.1403/ryujinx-1.1.1403-linux_arm64.tar.gz"
+RYU_ARCHIVE="ryujinx-1.1.1403-linux_arm64.tar.gz"
 
 err() {
     echo -e "\033[1;31mError: $@\033[0m" >&2
